@@ -1,27 +1,21 @@
 # .gitignore
-
-# ignore node_modules folder
-node_modules
+# ignore build artifacts
+/dist
+/build
+/*.pyc
 
 # ignore IDE files
-.idea
-.vscode
-
-# ignore build artifacts
-build/
-
-# ignore coverage reports
-coverage.xml
-coverage.html
-
-# ignore pyc files
-*.pyc
+.idea/
+.vscode/
 
 # ignore logs
-logs/
+/logs/
 
-# ignore docker images
-docker-compose.log
+# ignore node modules
+/node_modules/
 
-# ignore env file
-.env
+# ignore docker stuff
+/docker/
+
+# ignore coverage reports
+/coverage/

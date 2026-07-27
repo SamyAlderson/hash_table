@@ -1,21 +1,34 @@
 # .gitignore
 # ignore build artifacts
-/dist
-/build
-/*.pyc
+build/
 
-# ignore IDE files
+# ignore node_modules
+node_modules/
+
+# ignore pyc files
+*.pyc
+
+# ignore IDE config
 .idea/
+
+# ignore VSCode config
 .vscode/
 
+# ignore coverage results
+coverage.xml
+coverage.html
+
+# ignore pip cache
+.cache/
+
+# ignore pip install logs
+pip-log.txt
+
+# ignore local config
+config.py
+
+# ignore database files
+*.db
+
 # ignore logs
-/logs/
-
-# ignore node modules
-/node_modules/
-
-# ignore docker stuff
-/docker/
-
-# ignore coverage reports
-/coverage/
+logs/

@@ -1,34 +1,23 @@
 # .gitignore
-# ignore build artifacts
-build/
 
 # ignore node_modules
 node_modules/
 
+# ignore build output
+/dist
+
+# ignore IDE files
+.idea/
+
+# ignore vscode settings
+.vscode/
+
 # ignore pyc files
 *.pyc
 
-# ignore IDE config
-.idea/
-
-# ignore VSCode config
-.vscode/
-
-# ignore coverage results
+# ignore coverage reports
 coverage.xml
 coverage.html
 
-# ignore pip cache
-.cache/
-
-# ignore pip install logs
-pip-log.txt
-
-# ignore local config
-config.py
-
-# ignore database files
-*.db
-
-# ignore logs
-logs/
+# ignore flake8 reports
+flake8.xml
